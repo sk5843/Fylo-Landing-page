@@ -34,5 +34,13 @@
     border: none;
     width: 60rem;
     margin-right: 2rem;
+    transition: all 0.2s;
+    font-family: $font-body;
+    
+  }
+  &__inputs > [type="email"]:focus{
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+    border: 3px solid rgba($color-accent-2, 0.9);
   }
 }
