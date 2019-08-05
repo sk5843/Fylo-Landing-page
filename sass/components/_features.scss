@@ -1,0 +1,39 @@
+.features{
+
+    // TODO
+
+    grid-row: 3 / 4;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: repeat(2, min-content);
+    grid-row-gap: 13rem;
+    grid-column-gap: 25rem;
+    justify-items: center;
+    align-items: center;
+    padding: 0 25rem;
+
+    background-color: $color-primary-main; 
+    @media only screen and (max-width:600px){
+        justify-self: center;
+        padding: 0 16rem;
+        padding-bottom: 10rem;
+        
+      }
+
+    &__box{
+        text-align: center;
+        color: $color-neutral;
+        
+    }
+    &__title{
+        font-family: $font-heading;
+        
+    }
+    &__description{
+        font-family: $font-body;
+        font-size: 1.4rem;
+        line-height: 1.5;
+    }
+}
+

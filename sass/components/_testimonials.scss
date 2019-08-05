@@ -1,0 +1,45 @@
+.testimonials {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 8rem 12rem 30rem;
+  @media only screen and (max-width:600px){
+    padding: 5rem;
+    padding-bottom: 30rem;
+  }
+  background-color: $color-primary-main;
+  z-index: 2;
+
+  &__box {
+    background-color: $color-primary-testimonials;
+    padding: 4rem 2.9rem;
+    margin: 2rem;
+    box-shadow: 15px 13px 20px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 2%;
+    position: relative;
+
+
+    .quote-symbol{
+        position: absolute;
+        left: -0.5rem;
+        top:-3.5rem;
+        display:block;
+        z-index: -1;
+
+    }
+  }
+
+  &__author {
+    display: flex;
+    align-items: center;
+
+    .author__dp {
+      border-radius: 50%;
+      height: 2.5rem;
+      margin-right: 10px;
+    }
+    
+  }
+
+
+}

@@ -1,0 +1,40 @@
+.heading {
+    display: block;
+    font-family: $font-heading;
+    font-weight: 700;
+    font-size: 4rem;
+    @media only screen and (max-width:600px){
+      font-size: 3.8rem;
+    }
+    color: $color-neutral;
+    line-height: 1.5;
+
+    &--authorname{
+      font-size: 1.4rem;
+  }
+  }
+  .text{
+    display: block;
+      font-family: $font-body;
+      font-weight: 400;
+      color: $color-neutral;
+      line-height: 1.5;
+    &--main {
+      font-size: 2.3rem;
+      padding: 0 9rem;
+      @media only screen and (max-width:600px){
+        padding: 0;
+      }
+    }
+    &--about{
+        font-size: 1.4rem;
+    }
+    &--authorposition{
+      font-size: 1rem;
+
+       
+    }
+    &--testimonials{
+      font-size: 1.4rem;
+  }
+  }

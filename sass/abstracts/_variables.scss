@@ -1,0 +1,20 @@
+//COLORS
+
+//PRIMARY 
+
+$color-primary-intro: hsl(217, 28%, 15%);
+$color-primary-main: hsl(218, 28%, 13%);
+$color-primary-footer: hsl(216, 53%, 9%);
+$color-primary-testimonials: hsl(219, 30%, 18%);
+
+//GRADIENT ACCENT
+$color-accent-1: hsl(176, 68%, 64%);
+$color-accent-2: hsl(198, 60%, 50%);
+$gradient-cta: linear-gradient(to right, $color-accent-1, $color-accent-2);
+
+//NEUTRALS
+$color-neutral: white;
+
+//FONTS
+$font-heading: "Raleway";
+$font-body: "Open Sans";

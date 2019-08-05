@@ -1,0 +1,14 @@
+.logo {
+  display: block;
+  height: 4rem;
+  margin-right: auto;
+  margin-left: 3rem;
+
+  &--footer { //FIX
+    grid-column: 1 / -1;
+    margin-left: 0;
+  } 
+  
+}
+
+
